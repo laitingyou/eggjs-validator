@@ -1,0 +1,28 @@
+{
+  "name": "eggjs-validator",
+  "version": "1.0.0",
+  "description": "A validate plugin for egg.js",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "files": [
+    "src",
+    "package.json",
+    "README.md"
+  ],
+  "keywords": [
+    "egg",
+    "eggjs",
+    "node",
+    "validator",
+    "async-validator"
+  ],
+  "author": {
+    "email": "laitingyou@outlook.com",
+    "name": "laitingyou"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "async-validator": "^3.2.3",
+    "validator": "^12.2.0"
+  }
+}
