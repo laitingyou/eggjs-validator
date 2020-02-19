@@ -2,6 +2,7 @@
   "name": "eggjs-validator",
   "version": "1.0.0",
   "description": "A validate plugin for egg.js",
+  "repository": "https://github.com/laitingyou/eggjs-validator",
   "main": "src/index.js",
   "module": "src/index.js",
   "files": [
