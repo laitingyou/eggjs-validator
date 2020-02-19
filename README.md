@@ -65,6 +65,21 @@ module.exports = {
 
 ```
 
+4.Use in ```app/controller/user.js```
+
+```
+    const { body } = this.ctx.request
+    try {
+      ...
+      await this.ctx.validator('user.getUserInfo', body)
+      ...
+    }catch (e) {
+      this.ctx.body = {
+        message: e.message
+      }
+    }
+```
+
 ## Api
 
 #### type
