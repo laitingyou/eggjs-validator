@@ -5,7 +5,7 @@ A validate middleware for egg.js
 ## Install
 
 ```
-$ npm i eggjs-validator --save
+$ npm i eggjs-validate --save
 ```
 
 ## Usage
