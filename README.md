@@ -15,7 +15,7 @@ $ npm i eggjs-validate --save
 ```
 'use strict';
 
-module.exports = require('eggjs-validator');
+module.exports = require('eggjs-validate');
 
 ```
 2.Open a middleware in ```config/config.default.js```

@@ -8,7 +8,7 @@ module.exports= () => {
     ctx.validator = async function(descriptor, body) {
       if (typeof descriptor === 'string') {
         const paths = descriptor.split('.');
-        descriptor = require(`../rules/${paths[0]}`)[paths[1]];
+        descriptor = require(`../../../app/rules/${paths[0]}`)[paths[1]];
       }
       const validator = new schema(descriptor);
       try {
