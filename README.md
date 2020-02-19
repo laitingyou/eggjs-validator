@@ -1,4 +1,4 @@
-# eggjs-validator
+# egg-validator
 
 A validate middleware for egg.js
 

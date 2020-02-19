@@ -1,5 +1,5 @@
 {
-  "name": "eggjs-validator",
+  "name": "eggjs-validate",
   "version": "1.0.0",
   "description": "A validate plugin for egg.js",
   "repository": "https://github.com/laitingyou/eggjs-validator",
